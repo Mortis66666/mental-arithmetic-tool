@@ -30,7 +30,7 @@
         phase = "start";
 
         for (let i = 0; i < numAmt; i++) {
-            num = randomRange(minNum, maxNum);
+            num = randomRange(Number(minNum), Number(maxNum));
             sum += num;
 
             await wait(displayTime);
