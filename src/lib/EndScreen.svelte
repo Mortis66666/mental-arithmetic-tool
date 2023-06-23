@@ -15,7 +15,7 @@
 {#if correct}
     <h1>Congratz!</h1>
     <h3>
-        The answer was {answer} and you get it correct, keep up the good word!
+        The answer was {answer} and you get it correct, keep up the good work!
     </h3>
 {:else}
     <h1>Unfortunate</h1>
